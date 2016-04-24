@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/backimage4"
+     >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:shape="rectangle"
+          android:textStyle="bold" 
+                android:textColor="#000"
+        android:text="Encrypt SMS"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:color="#FFDDDDDD" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Code 1:"
+          android:textStyle="bold" 
+                android:textColor="#E8E8E8"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/etcode1"
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:layout_gravity="center"
+        android:hint="Type different code"
+        android:inputType="number"
+        android:gravity="left" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+          android:textStyle="bold" 
+                android:textColor="#E8E8E8"
+        android:text="Code 2:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+     <EditText
+        android:id="@+id/etcode2"
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:layout_gravity="center"
+        android:hint="Type different code"
+        android:inputType="number"
+        android:gravity="left" />
+
+    <Button
+        android:id="@+id/bencryptsend"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+                  android:textStyle="bold" 
+        
+        android:text="ENCRYPT" />
+
+</LinearLayout>

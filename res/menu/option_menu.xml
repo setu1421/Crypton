@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/secure_connect_scan"
+        android:numericShortcut="2" 
+        android:alphabeticShortcut="c" 
+        android:title="Secure Connect Scan">
+        
+    </item>
+    
+    <item
+       android:title="Insecure Connect Scan"
+       android:id="@+id/insecure_connect_scan"
+       android:numericShortcut="2"
+       android:alphabeticShortcut="s"
+       />
+       
+    <item
+       android:title="discoverable"
+       android:id="@+id/discoverable"
+       android:numericShortcut="2"
+       android:alphabeticShortcut="s"
+       />
+    
+
+</menu>

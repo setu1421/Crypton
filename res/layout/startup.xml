@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/backimage3" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:layout_weight="0.00"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <Button
+            android:id="@+id/bcreatemessage"
+            android:layout_width="180dp"
+            android:layout_height="140dp"
+            android:layout_marginRight="7dp"
+            android:background="#80000066"
+             android:layout_gravity="center"
+            android:paddingBottom="5dp"
+            
+            android:text="  Create Message"
+android:textColor="#FFFFFF"            
+android:textSize="20dp"
+android:textStyle="bold"
+android:typeface="serif"
+ />
+
+        <Button
+            android:id="@+id/binbox"
+            android:layout_width="116dp"
+            android:layout_height="135dp"
+            android:layout_marginRight="7dp"
+            android:background="#80000066"
+            android:layout_gravity="center"
+            android:text="  Inbox"
+            android:textColor="#FFFFFF"            
+            android:textStyle="bold"      
+            android:textSize="20dp"
+            android:typeface="serif"
+      
+       />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <Button
+            android:id="@+id/boutbox"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginRight="7dp"
+            android:background="#80000066"
+             android:layout_gravity="center"
+            android:paddingBottom="5dp"
+            android:text="  Sent"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" 
+            android:textStyle="bold"      
+                  android:typeface="serif"
+            
+            />
+
+        <Button
+            android:id="@+id/bdrafts"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginRight="7dp"
+            android:layout_weight="0.20"
+            android:background="#80000066"
+             android:layout_gravity="center"
+            android:paddingBottom="5dp"
+            android:text="  Drafts"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp" 
+                              android:typeface="serif"
+                                          android:textStyle="bold"      
+                              
+            />
+    </LinearLayout>
+    
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_weight="0.00"
+         android:orientation="vertical" >
+
+         <Button
+             android:id="@+id/bchat"
+             android:layout_width="158dp"
+             android:layout_height="140dp"
+             android:layout_gravity="center"
+             android:layout_marginRight="7dp"
+             android:background="#80000066"
+             android:paddingBottom="5dp"
+             android:text="  Chat"
+             android:textColor="#FFFFFF"
+             android:textSize="20dp"
+             android:textStyle="bold"
+             android:typeface="serif" />
+
+     </LinearLayout>
+
+</LinearLayout>

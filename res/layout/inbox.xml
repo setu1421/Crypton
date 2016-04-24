@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backimage" >
+
+    <TextView
+        android:id="@+id/cinbox"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:text="INBOX"
+        android:textStyle="bold"    
+        android:textColor="#FFFFFF"            
+          
+                        android:background="#000000"
+        
+         />
+   <ListView
+                android:id="@+id/lv"
+                android:layout_width="fill_parent"
+                android:background="#10000000"
+                android:layout_height="wrap_content"
+                android:divider="#000000"
+                  android:minHeight="?android:attr/listPreferredItemHeight" 
+                
+                android:dividerHeight="2px"/>
+        
+    
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backimage4" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:shape="rectangle"
+        android:text="Encrypted SMS"
+        android:textStyle="bold" 
+                android:textColor="#000"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:color="#FFDDDDDD" />
+
+    <EditText
+        android:id="@+id/bencrypt"
+        android:layout_width="fill_parent"
+        android:gravity="top"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.87"
+        android:textSize="23dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/bencryptsend"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+                android:textStyle="bold" 
+        
+        android:text="SEND" />
+
+</LinearLayout>
